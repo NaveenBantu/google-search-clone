@@ -9,11 +9,9 @@ const App = () => {
     return (
         <div className={darkTheme ? 'dark' : ''}>
             <div className='bg-slate-100 dark:bg-slate-800 dark:text-gray-200 min-h-screen'>
-                <h1 className='text-3xl font-bold text-teal-700'>
-                    <Navbar darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
-                    <Links />
-                    <Footer />
-                </h1>
+                <Navbar darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
+                <Links />
+                <Footer />
             </div>
         </div>
     )
