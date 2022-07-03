@@ -7,3 +7,4 @@ Created using:
 - React, React-Router-Dom
 - React Context API
 - React useDebounce hook
+- TailwindCSS
